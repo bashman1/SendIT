@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SendIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">SendIT</span> Delivery</h1>
+			</div>
+			<nav>
+				<ul>
+          <li ><a href="home.html">Home</a></li>
+          <li><a href="parcel.html">Parcel</a></li>
+          <li class="current"><a href="parcelprofile.html">Parcel Profile</a></li>
+          <li><a href="changepassword.html">Change Password</a></li>
+          <li><a href="admin.html">Admin</a></li>
+          <li><a href="index.html" onclick="return confirm('Log Out')">Log Out</a></li>
+        </ul>
+			</nav>
+		</div>
+	</header>
+      <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Parcel Delivery Order Details</h1>
+            <h4>Number Of Parcel Delivered</h4>
+            <p>Number Of Parcels:</p>
+            <h4>Number Of Parcel Not Yet Delevered</h4>
+            <p>Number Of Parcels:</p>
+            <h4>List Of All Parcels</h4>
+            <table class="table">
+             <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Parcel No.</th>
+                  <th>Pick Up</th>
+                  <th>Destination</th>
+                  <th>Weight</th>
+                  <th>Pice</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>0001</td>
+                  <td>Kampala</td>
+                  <td>Mbale</td>
+                  <td>5 Kg</td>
+                  <td>10,000/=</td>
+                  <td>2/11/2018</td>
+                  <td>Delivered</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <br><br><br><br>
+            
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Users </h3>
+              Users Parcel Profile 
+            
+          </div>
+        </aside>
+      </div>
+    </section>
+	
+	<section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    
+    <footer>
+      <p>SendIT, Copyright &copy; 2018</p>
+    </footer>
+
+	
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
