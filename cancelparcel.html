@@ -18,9 +18,9 @@
             <nav>
                 <ul>
                     <li><a href="home.html">Home</a></li>
-                    <li><a href="parcel.html">Parcel</a></li>
+                    <li class="current"><a href="parcel.html">Parcel</a></li>
                     <li><a href="parcelprofile.html">Parcel Profile</a></li>
-                    <li class="current"><a href="changepassword.html">Change Password</a></li>
+                    <li><a href="changepassword.html">Change Password</a></li>
                     <li><a href="admin/admin.html">Admin</a></li>
                     <li><a href="index.html" onclick="return confirm('Log Out')">Log Out</a></li>
                 </ul>
@@ -30,23 +30,26 @@
     <section id="main">
         <div class="container">
             <article id="main-col">
-                <h1 class="page-title">Change User Password</h1>
+                <h1 class="page-title">Parcel Delivery Order Details</h1>
+                <h4>Parcel Info</h4>
+                <p>Pick Up: Entebbe</p>
+                <p>Destination: Kampala</p>
+                <p>Weight: 50Kgs</p>
+                <p>Price: 100,000/=</p>
+                <p>Pick Up date: 1/10/2018</p>
                 <form class="form">
-
-                    <input type="text" name="" placeholder="Old Password">
-
-                    <input type="text" name="" placeholder="New Password">
-
-                    <input type="text" name="" placeholder="Cormfirm Password">
-                    <button class="button_1">Change Password</button>
-
+                    <button class="button_1 cancil" onclick="return confirm('Cancil Parcil')">Cancil Parcel</button>
                 </form>
             </article>
 
             <aside id="sidebar">
                 <div class="dark">
-                    <h3>Users Password</h3>
-                    <p>User Change Password </p>
+                    <h3>Menu</h3>
+                    <a href="parcel.html">Create Parcel</a>
+                    <a href="changedestination.html">Change Destination</a>
+                    <a href="parceldetail.html">Parcel Delivery Details</a>
+                    <a href="cancelparcel.html">Cancel Delivery Order</a>
+                    <a href="allparcels.html">All Delivery Orders</a>
 
                 </div>
             </aside>
