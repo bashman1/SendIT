@@ -1,7 +1,7 @@
-# SendIT
+ SendIT
 SendIT is a courier service that helps users deliver parcels to different destinations. SendIT provides courier quotes based on weight categories.
 
-######################## INSTALLATION ###########################################
+                     INSTALLATION 
 
 1. REQUIREMENTS FOR INSTALLATION:
         1. Computer with Opersting system 
@@ -27,7 +27,7 @@ SendIT is a courier service that helps users deliver parcels to different destin
     http://localhost/SendIT
 
 
-############################ USING THE SYSTEM ###########################################
+                             USING THE SYSTEM 
     
         
 Users 
@@ -45,6 +45,5 @@ Admin
 
 
 
-######################### THE GIT PAGES ########################################################
-git pages url:
+                                 THE GIT PAGES 
 https://bashman1.github.io/SendIT/
